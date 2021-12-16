@@ -11,6 +11,7 @@ alias vim="nvim"
 plugins=(
 	git
 	zsh-autosuggestions
+	zsh-syntax-highlighting
 	copydir
 	dirhistory
 )
