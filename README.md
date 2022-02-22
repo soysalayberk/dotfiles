@@ -1,5 +1,5 @@
 # dotfiles
-Tolle Konfigurationsdateien!
+Atemberaubende Konfigurationsdateien!
 
 Die Augen mögen dies erblicken:
 ![beispielbild](./bilder/beispiel.png)
