@@ -18,5 +18,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias wetter="curl https://wttr.in"
 
+sh /Users/$(whoami)/Desktop/Programmieren/dotfiles/start.sh
+
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
