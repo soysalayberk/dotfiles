@@ -1,3 +1,3 @@
 #/usr/bin
 
-neofetch --source ./neofetch/pkmn.txt |lolcat
+neofetch --source /Users/$(whoami)/Desktop/Programmieren/dotfiles/neofetch/pkmn.txt |lolcat
