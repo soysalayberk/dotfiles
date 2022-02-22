@@ -1,24 +1,22 @@
-
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-export ZSH="/Users/sanberk/.oh-my-zsh" 
-export PATH="/usr/local/bin:$PATH"
 
-alias vim="nvim"
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
 	git
 	zsh-autosuggestions
-	zsh-syntax-highlighting
-	copydir
-	dirhistory
+    zsh-syntax-highlighting
 )
 
-ZSH_DISABLE_COMPFIX=true
-
 source $ZSH/oh-my-zsh.sh
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+# Aliases
+alias wetter="curl https://wttr.in"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
